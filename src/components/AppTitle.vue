@@ -2,7 +2,7 @@
 export default {
   data() {
     return{
-      message: 'Template Vite + Vue'
+      message: 'La mia prima app con Vite!'
     }
   }
 }

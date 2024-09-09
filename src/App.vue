@@ -7,7 +7,7 @@
 */
 
 // 1) Importazione del componente
-import AppHeader from './components/AppHeader.vue';
+import AppTitle from './components/AppTitle.vue';
 
 export default {
   data() {
@@ -18,7 +18,7 @@ export default {
 
   // 2) Dichiarazione del componente
   components: {
-    AppHeader
+    AppTitle
   },
   methods: {
     incrementCount() {
@@ -30,7 +30,7 @@ export default {
 
 <template>
   <!-- 3) Utilizzo del componente -->
-  <AppHeader />
+  <AppTitle />
 
   <div>
 
